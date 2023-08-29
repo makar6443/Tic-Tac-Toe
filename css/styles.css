@@ -1,0 +1,51 @@
+
+.container {
+  margin: 100px 50px 50px 50px;
+}
+
+.input-title {
+  font-size: 30px;
+  font-weight: 500;
+}
+
+.form {
+  margin: 0 auto;
+  gap: 10px;
+  max-width: 400px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.scores {
+  margin: 0 auto;
+  padding-top: 50px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  
+  font-size: 30px;
+  font-weight: 500;
+}
+
+.button-play {
+  margin: 0 auto;
+}
+
+.content {
+  width: 306px;
+  margin: 0 auto;
+}
+
+.item {
+  width: 100px;
+  height: 100px;
+  text-align: center;
+  display: inline-block;
+  font-size: 85px;
+  border: 1px solid black;
+  cursor: pointer;
+  vertical-align: middle;
+  transition: background .1s;
+  user-select: none;
+}
